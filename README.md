@@ -4,7 +4,7 @@
   </h1>
   <img src="https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity" alt="MadeWithUnity Badge"/>
   
-A Prototype for educational purpose.
+A Prototype made for educational purpose.
 </div>
 
 <p align="center">
