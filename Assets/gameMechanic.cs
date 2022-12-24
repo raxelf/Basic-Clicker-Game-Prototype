@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class gameMechanic : MonoBehaviour
 {
-    public double buckets;
-    public double bPS;
+    public double coin;
+    public double cps;
 
     public Slider timerSlider;
 
     public Text currentTimeText;
-    public Text bucketsText;
-    public Text bPSText;
+    public Text coinText;
+    public Text cpsText;
 
     public float currentTime;
     public float maxTime;
@@ -21,8 +21,8 @@ public class gameMechanic : MonoBehaviour
 
     public void Start()
     {
-        buckets = 0;
-        bPS = 1;
+        coin = 0;
+        cps = 1;
         maxTime = 3;
         currentTime = maxTime;
         timerSlider.maxValue = maxTime;
@@ -37,8 +37,8 @@ public class gameMechanic : MonoBehaviour
 
     public void Update()
     {
-        bucketsText.text = buckets + " Buckets";
-        bPSText.text = bPS + " PerClick";
+        coinText.text = coin + " Coins";
+        cpsText.text = cps + " PerClick";
 
         float time = currentTime;
 
@@ -59,7 +59,7 @@ public class gameMechanic : MonoBehaviour
             timerActive = false;
             timerSlider.gameObject.SetActive(false);
             currentTime = maxTime;
-            buckets += bPS;
+            coin += cps;
         }
     }
 
