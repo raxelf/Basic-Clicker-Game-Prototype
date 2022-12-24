@@ -8,7 +8,7 @@ A Prototype for educational purpose.
 </div>
 
 <p align="center">
-  <img src="click.gif" />
+  <img src="Preview/click.gif" />
 </p>
 
 ## Getting Started
@@ -33,9 +33,9 @@ Make sure you have the requirements before starting:
 ## Screenshots
 
 <p align="center">
-  <img src="preview1.png"/>
+  <img src="Preview/preview1.png"/>
 </p>
 
 <p align="center">
-  <img src="preview2.png"/>
+  <img src="Preview/preview2.png"/>
 </p>
